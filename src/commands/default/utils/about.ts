@@ -48,15 +48,15 @@ export default {
                             },
                             description: `Estradiol is a multifunctional queer bot for Discord.
                             Features:
-                                * Pronouns
-                                * Profiles
-                                * \`pronouns.page\`, \`pronouns.cc\`, \`pronouny.xyz\`, \`pronoun.is\` support
-                                * Support resources
-                                * HRT converter`,
+* Pronouns
+* Profiles
+* \`pronouns.page\`, \`pronouns.cc\`, \`pronouny.xyz\`, \`pronoun.is\` support
+* Support resources
+* HRT converter`,
                             fields: [
                                 {
                                     name: "Process",
-                                    value: `${mem} MB}
+                                    value: `${mem} MB
                                     ${cpu} % CPU`,
                                     inline: true,
                                 },
