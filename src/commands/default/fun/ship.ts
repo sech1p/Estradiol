@@ -1,10 +1,12 @@
 import Eris from "eris";
+import Config from "../../../Config";
 import CommandOptionType from "../../../utils/Slash";
 import Colors from "../../../utils/Colors";
 
 export default {
     name: "ship",
     description: "Ship between two server users",
+    exampleUsage: "/ship @First User @Second User",
     options: [
         {
             type: CommandOptionType.USER,

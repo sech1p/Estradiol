@@ -6,6 +6,7 @@ const { version } = require("../../../../package.json");
 export default {
     name: "about",
     description: "About this bot",
+    exampleUsage: "/about",
     options: [],
     execute: async (interaction: Eris.CommandInteraction) => {
         const cpu = osUtils.cpu;
