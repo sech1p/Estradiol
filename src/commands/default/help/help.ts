@@ -52,7 +52,7 @@ export default {
                     {
                         author: {
                             name: `List of available commands
-                            Type /help \`Command Name\` to view command info`,
+Type /help \`Command Name\` to view command info`,
                         },
                         description: commandNames.join(", "),
                         color: Colors.RANDOM[Math.floor(Math.random() * Colors.RANDOM.length)],
