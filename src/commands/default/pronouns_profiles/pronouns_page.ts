@@ -34,7 +34,6 @@ export default {
                         ],
                     });
                 }
-                console.log(response.data.profiles.en)
                 let names: string = "";
                 let pronouns: string = "";
                 let flags: string = "";
