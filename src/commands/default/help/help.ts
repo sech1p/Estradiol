@@ -42,7 +42,8 @@ export default {
                 },
                 description: `**Name**: ${cmd.name}
                                 **Description**: ${cmd.description}
-                                **Example usage**: ${cmd.exampleUsage}`,
+                                **Example usage**: ${cmd.exampleUsage}
+                                **Developer only?**: ${cmd.devOnly ? "Yes" : "No"}`,
                 color:
                   Colors.RANDOM[
                     Math.floor(Math.random() * Colors.RANDOM.length)
