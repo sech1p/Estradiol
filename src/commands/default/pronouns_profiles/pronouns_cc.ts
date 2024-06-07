@@ -69,7 +69,7 @@ export default {
                   value: flags,
                 },
               ],
-              color: Colors.RANDOM[Math.floor(Math.random() * 100)],
+              color: Colors.RANDOM[Math.floor(Math.random() * Colors.RANDOM.length)],
             },
           ],
         });
