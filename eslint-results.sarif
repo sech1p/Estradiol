@@ -1,1 +1,89 @@
-{}
+{
+  "version": "2.1.0",
+  "$schema": "http://json.schemastore.org/sarif-2.1.0-rtm.5",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "ESLint",
+          "informationUri": "https://eslint.org",
+          "rules": [],
+          "version": "9.4.0"
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/Bot.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/Config.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/fun/estragon.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/fun/rickroll.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/fun/ship.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/help/help.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/hormones/hrt_convert.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/pronouns_profiles/pronouns_cc.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/pronouns_profiles/pronouns_page.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/utils/about.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/commands/default/utils/ping.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/utils/Colors.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/dist/utils/Slash.js"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/sech1p/Dev/Estradiol/eslint.config.js"
+          }
+        }
+      ],
+      "results": []
+    }
+  ]
+}
