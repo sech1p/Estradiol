@@ -1,7 +1,7 @@
 {
   "name": "estradiol",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Your queer bot for Discord!",
   "main": "src/app.ts",
   "scripts": {
     "start": "node dist/Bot.js",
