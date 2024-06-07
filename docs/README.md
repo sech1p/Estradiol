@@ -1,4 +1,4 @@
-<img src="../images/logo/estradiol_logo.jpg" alt="Estradiol logo" width="200" height="50" />
+<img src="../images/logo/estradiol_logo.jpg" alt="Estradiol logo" width="200" height="150" />
 
 # 👀 About Estradiol
 
