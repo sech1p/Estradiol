@@ -25,7 +25,7 @@ const logError = (message: string) => {
 let commands: any[] = [];
 const loadCommands = async (bot: Eris.Client) => {
   log(`⏳ Loading commands...`);
-  await glob("dist/commands/**/**/*.js").then(
+  glob("dist/commands/**/**/*.js").then(
     async (commandFiles: string[]) => {
       for (const commandFile of commandFiles) {
         log(`⏳ Loading command "${commandFile}"...`);
