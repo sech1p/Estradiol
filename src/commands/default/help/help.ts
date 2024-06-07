@@ -8,6 +8,7 @@ export default {
   name: "help",
   description: "Displays bot help",
   exampleUsage: "/help [ship]",
+  devOnly: false,
   options: [
     {
       type: CommandOptionType.STRING,

@@ -7,6 +7,7 @@ export default {
   name: "about",
   description: "About this bot",
   exampleUsage: "/about",
+  devOnly: false,
   options: [],
   execute: async (interaction: Eris.CommandInteraction) => {
     const cpu = osUtils.cpu;

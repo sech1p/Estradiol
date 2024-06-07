@@ -60,6 +60,17 @@ bot.on("interactionCreate", async (interaction) => {
         (command) => command.name === interaction.data.name,
       );
       if (command) {
+        if (command.devOnly) {
+          if (interaction.member?.id !== Config.BotOwnerID) {
+            await interaction.createMessage({
+              content: `❌ An error has occured while executing command
+You don't have permission to use this command.`,
+            });
+            return;
+          } else {
+            await command.execute(interaction);
+          }
+        }
         await command.execute(interaction);
       }
     } catch (exception) {

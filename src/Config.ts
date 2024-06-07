@@ -6,7 +6,9 @@ dotenv.config({
 });
 
 const Token = process.env.TOKEN || "";
+const BotOwnerID = process.env.BOT_OWNER_ID || "";
 
 export default {
   Token,
+  BotOwnerID,
 };

@@ -6,6 +6,7 @@ export default {
   name: "hrt-convert",
   description: "Converts unit of hormone into another",
   exampleUsage: "/hrt-convert estradiol 55 pg/mL",
+  devOnly: false,
   options: [
     {
       type: CommandOptionType.SUB_COMMAND,

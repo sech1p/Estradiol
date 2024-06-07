@@ -7,6 +7,7 @@ export default {
   name: "ship",
   description: "Ship between two server users",
   exampleUsage: "/ship @First User @Second User",
+  devOnly: false,
   options: [
     {
       type: CommandOptionType.USER,

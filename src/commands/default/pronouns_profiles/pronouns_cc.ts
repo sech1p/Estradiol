@@ -7,6 +7,7 @@ export default {
   name: "pronouns-cc-profile",
   description: "Display profile from pronouns.cc",
   exampleUsage: "/pronouns-cc-profile sech1p",
+  devOnly: false,
   options: [
     {
       type: CommandOptionType.STRING,
