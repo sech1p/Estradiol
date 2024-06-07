@@ -29,7 +29,7 @@ export default {
 `);
                 response.data.pronouns.forEach((pronoun: any) => pronouns += `${pronoun.pronouns} [Status: ${pronoun.status}]
 `);
-                response.data.flags.forEach((flag: any) => flags += `${flag.name} (${flag.description})
+                response.data.flags.forEach((flag: any) => flags += `${flag.name} (${flag.description ?? "No description has been provided"})
 `);
                 interaction.createMessage({
                     embeds: [
