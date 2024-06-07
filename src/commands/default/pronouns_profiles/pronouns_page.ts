@@ -73,7 +73,8 @@ export default {
                                     name: "Flags",
                                     value: flags,
                                 },
-                            ]
+                            ],
+                            color: Colors.RANDOM[Math.floor(Math.random() * 100)],
                         },
                     ],
                 });
