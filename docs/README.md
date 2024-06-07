@@ -1,4 +1,4 @@
-![Estradiol logo](../images/logo/estradiol_logo.jpg)
+<img src="../images/logo/estradiol_logo.jpg" alt="Estradiol logo" width="200" height="50" />
 
 # 👀 About Estradiol
 
