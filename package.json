@@ -8,7 +8,7 @@
     "build": "tsc --build",
     "clean": "tsc --clean",
     "dev": "nodemon --watch \"src/**\" --ext \"ts,json,ejs\" --exec \"npm run build && npm start\"",
-    "format:check":"npx prettier --check .",
+    "format:check": "npx prettier --check .",
     "format:write": "npx prettier --write ."
   },
   "repository": {
