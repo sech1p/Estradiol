@@ -19,3 +19,5 @@ If you want to support my work, please consider supporting me by [GitHub Sponsor
 # 🗒️ License
 
 Estradiol is licensed under [Apache-2.0](../LICENSE) license
+
+Bot is kinda inspired by No767's [Catherine-Chan](https://github.com/No767/Catherine-Chan). Please support her great work!
